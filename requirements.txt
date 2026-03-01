@@ -3,7 +3,7 @@ mlflow==3.10.0
 pandas==2.2.2
 numpy==1.26.4
 # Pin transitive deps to patched versions (pip-audit CVEs)
-protobuf==7.34.0
+protobuf==5.29.6
 pyarrow==23.0.1
 pytest==8.1.1
 bandit==1.7.8

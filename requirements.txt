@@ -1,7 +1,10 @@
-scikit-learn==1.4.2
-mlflow==2.12.2
+scikit-learn==1.8.0
+mlflow==3.10.0
 pandas==2.2.2
 numpy==1.26.4
+# Pin transitive deps to patched versions (pip-audit CVEs)
+protobuf==7.34.0
+pyarrow==23.0.1
 pytest==8.1.1
 bandit==1.7.8
 pip-audit==2.7.3
